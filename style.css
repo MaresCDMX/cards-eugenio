@@ -3,20 +3,33 @@ body {
   overflow: hidden;
 }
 
+button {
+  outline: none;
+}
+
 img {
   max-width: 100%;
   height: auto;
 
 }
 
+.container-fluid {
+  padding-right: 10px !important;
+  padding-left: 10px !important;
+
+}
 
 .content {
   margin-top: 30px;
-  width: 400px;
+  /*width: 400px;*/
   height: 600px;
   border-radius: 20px;
-  border: 5px solid #000;
+  /*border: 5px solid #000;*/
   overflow: hidden;
+}
+
+.slider-item-ratio .slider-container>*>* {
+  object-fit: contain;
 }
 
 @media screen and (max-width: 530px) {
